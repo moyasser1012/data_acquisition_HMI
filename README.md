@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains the code for an Android application serving as a Human Machine Interface to be used in combination with a [wing unit] and [cockpit unit], along with all its resources and dependencies.
+This repository contains the code for an Android application serving as a Human Machine Interface to be used in combination with a [wing unit](https://github.com/moyasser1012/esp32_data_acquisition_wing) and [cockpit unit](https://github.com/moyasser1012/cockpit-unit-ROS2-package), along with all its resources and dependencies.
 
 The main functionality of this application is to start and stop the data recording of the measurement system, as well as to preview the sensors' measurements during operation.
 
@@ -47,3 +47,4 @@ The remaining tabs are for data preview during operation, either numerically or 
 
 
 In case you would like to change the recorded topics or the name of the ROSBag, this can be edited in Main.qml by editing the variable "command".
+
